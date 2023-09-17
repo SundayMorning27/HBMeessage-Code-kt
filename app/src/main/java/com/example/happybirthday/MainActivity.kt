@@ -47,7 +47,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
-
      Column(
          verticalArrangement = Arrangement.Center,
          modifier = modifier
@@ -92,7 +91,6 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier )
                 .padding(8.dp)
         )
     }
-
 }
 
 @Preview(
